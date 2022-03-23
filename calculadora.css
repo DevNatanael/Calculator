@@ -1,0 +1,396 @@
+body{
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    background-color: slateblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 390px;
+    margin-top: 70px;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+		0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    
+    
+    
+}
+
+.tela{
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+#tela2{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    
+}
+
+.parte1{
+    width: 355px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+#limpar{
+    width: 165px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#limpar:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#limpar:active{
+    transform: translateY(4px)
+}
+
+#dividir{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#dividir:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#dividir:active{
+    transform: translateY(4px)
+}
+
+#multiplicar{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#multiplicar:active{
+    transform: translateY(4px)
+}
+
+#multiplicar:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.parte2{
+    width: 355px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 3px;
+
+
+}
+
+#sete{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#sete:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#sete:active{
+    transform: translateY(4px)
+}
+
+#oito{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#oito:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#oito:active{
+    transform: translateY(4px)
+}
+
+#nove{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#nove:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#nove:active{
+    transform: translateY(4px)
+}
+
+#subtrair{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#subtrair:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#subtrair:active{
+    transform: translateY(4px)
+}
+
+.parte3{
+    width: 355px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 3px;
+}
+
+#quatro{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#quatro:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#quatro:active{
+    transform: translateY(4px)
+}
+
+#cinco{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+
+}
+
+#cinco:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#cinco:active{
+    transform: translateY(4px)
+}
+
+#seis{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+
+}
+
+#seis:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#seis:active{
+    transform: translateY(4px)
+}
+
+#soma{
+    width: 80px;
+    height: 45px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+}
+
+#soma:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#soma:active{
+    transform: translateY(4px)
+}
+
+.parte4{
+  
+    width: 350px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 3px;
+    display: flex;
+
+}
+
+
+#um{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+
+}
+
+#um:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#um:active{
+    transform: translateY(4px)
+}
+
+#dois{
+    width: 80px;
+    height: 45px;
+    margin-left: 6px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+
+}
+
+#dois:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#dois:active{
+    transform: translateY(4px)
+}
+
+#tres{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    margin-left: 6px;
+    cursor: pointer;
+
+
+}
+
+#tres:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#tres:active{
+    transform: translateY(4px)
+}
+
+#igual{
+    
+    width: 80px;
+    height: 101px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+#igual:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#igual:active{
+    transform: translateY(4px)
+}
+
+.parte5{
+
+    width: 260px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 3px;
+
+}
+
+#zero{
+    width: 166px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    cursor: pointer;
+   
+
+}
+
+#zero:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#zero:active{
+    transform: translateY(4px)
+}
+
+#ponto{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #363943;
+    color: white;
+    margin-left: 3px;
+    cursor: pointer;
+   
+}
+
+#ponto:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#ponto:active{
+    transform: translateY(4px)
+}

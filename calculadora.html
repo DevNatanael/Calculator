@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="calculadora.css" rel="stylesheet">
+    <meta charset="UTF-8">
+   
+    <title>Calculadora Natan</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tela">
+            <input id="tela2" type="text" placeholder="0" disabled = "disabled">
+        </div>
+
+        <div class="parte1">
+            <button onclick="calcular('acao', 'c')" id="limpar" type="button">C</button>
+            <button onclick="calcular('acao', '/')" id="dividir" type="button">/</button>
+            <button onclick="calcular('acao', '*')" id="multiplicar" type="button">X</button>
+        </div>
+
+        <div class="parte2">
+            <button onclick="calcular('valor', 7)" id="sete" type="button">7</button>
+            <button onclick="calcular('valor', 8)" id="oito" type="button">8</button>
+            <button onclick="calcular('valor', 9)" id="nove" type="button">9</button>
+            <button onclick="calcular('acao', '-')" id="subtrair" type="button">-</button>
+        </div>
+
+        <div class="parte3">
+            <button onclick="calcular('valor', 4)" id="quatro" type="button">4</button>
+            <button onclick="calcular('valor', 5)" id="cinco" type="button">5</button>
+            <button onclick="calcular('valor', 6)" id="seis" type="button">6</button>
+            <button onclick="calcular('acao', '+')" id="soma" type="button">+</button>
+        </div>
+
+        <div class="parte4">
+            <button onclick="calcular('valor', 1)" id="um" type="button">1</button>
+            <button onclick="calcular('valor', 2)" id="dois" type="button">2</button>
+            <button onclick="calcular('valor', 3)" id="tres" type="button">3</button>
+            <button onclick="calcular('acao', '=' )" id="igual" type="button">=</button>
+        </div>
+
+        <div class="parte5">
+            <button onclick="calcular('valor', 0)" id="zero" type="button">0</button>
+            <button onclick="calcular('acao', '.')" id="ponto" type="button">.</button>
+        </div>
+    
+    </div>
+
+
+
+
+    <script>
+        function calcular(tipo, valor){
+            console.log(tipo , valor);
+
+            if (tipo === 'acao'){
+            
+                if (valor == 'c'){
+                    document.getElementById('tela2').value = ""
+                }
+
+                if(valor === "+" || valor === "-" || valor === "*" || valor === "/" || valor === "."){
+                    document.getElementById("tela2").value += valor
+                }
+
+                if (valor === "="){
+                    var valorcampo = eval(document.getElementById("tela2").value)
+                    
+                    document.getElementById("tela2").value = valorcampo
+                }
+
+            } else if (tipo === 'valor')[
+                document.getElementById('tela2').value += valor
+            ]
+
+        }
+
+
+    </script>
+
+    
+</body>
+</html>
